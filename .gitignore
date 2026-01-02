@@ -27,3 +27,4 @@ env/
 # Windows shortcuts
 *.lnk
 
+config.ini
