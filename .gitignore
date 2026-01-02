@@ -1,42 +1,29 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
 
-# Virtual environment
-venv/
-.env/
-.venv/
+# Environment files
+.env
+.env.*
+*.env
 
-# Django stuff
-*.log
+# Django
 db.sqlite3
 media/
 staticfiles/
 
-# IDE / Editor settings
+# Virtual env
+venv/
+env/
+
+# IDE
 .vscode/
 .idea/
+# Virtual environment
+.venv/
+venv/
+env/
 
-# Windows shortcuts and system files
+# Windows shortcuts
 *.lnk
-Thumbs.db
-Desktop.ini
 
-# macOS system files
-.DS_Store
-
-# Pytest / coverage
-htmlcov/
-.coverage
-*.cover
-*.py,cover
-.cache
-nosetests.xml
-coverage.xml
-*.mo
-*.pot
-
-# Migrations (optional — ignore if you don’t want them in git)
-# */migrations/*.py
-# */migrations/*.pyc
